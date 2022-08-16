@@ -1,0 +1,167 @@
+
+h3{
+    text-align: center;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+#table-side
+{
+    width: 20%;
+    border-right: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.search-tables
+{
+    padding: 20px 20px;
+}
+
+#table-search, #menu-search
+{
+    width: 80%;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.table-card
+{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 20px 20px;
+    background-color: #32a852;
+    margin: 15px 15px;
+    border-radius: 10px;
+    transition-duration: 0.2s;
+}
+
+.table-card:hover
+{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+#menu-side
+{
+    width: 80%;
+    border-right: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.food-card
+{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 3px 15px;
+    background-color: gray;
+    margin: 15px 15px;
+    border-radius: 10px;
+    transition-duration: 0.2s;
+}
+
+.food-card:hover
+{
+    cursor: pointer;
+    background-color: darkgray;
+}
+
+.search-menu
+{
+    padding: 20px 20px;
+}
+
+#table-modal
+{
+    display: block;
+    z-index: 1;
+    position: fixed;
+    left: 50%;
+    top: 25%;
+    right: 15%;
+    /* bottom: 25%; */
+    background-color:burlywood;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#table-modal > h2
+{
+    text-align: center;
+}
+
+#close-button
+{
+    float: right;
+    transition-duration: 0.1s;
+}
+
+#close-button:hover
+{
+    cursor: pointer;
+    transform: scale(1.3);
+}
+
+#table-details > table, th, td
+{
+    width: auto;
+    border: 1px solid;
+}
+
+#table-details
+{
+    width: 100%;
+}
+
+#modal-food-quantity
+{
+    width: 20%;
+}
+
+#modal-food-quantity > input
+{
+    width: 95%;
+    background-color: burlywood;
+}
+
+#modal-food-delete
+{
+    cursor: pointer;
+    transition-duration: 0.1s;
+}
+
+#modal-food-delete >img:hover
+{
+    transform: scale(1.2);
+}
+
+#check-out-button
+{
+    background-color: burlywood;
+    position: relative;
+    left: 44%;
+    cursor: pointer;
+    transition-duration: 0.1s;
+}
+
+#check-out-button:hover
+{
+    transform: scale(1.1);
+    background-color:chocolate;
+}
+
+.center
+{
+    text-align: center;
+}
+
+td{
+    text-align: center;
+}

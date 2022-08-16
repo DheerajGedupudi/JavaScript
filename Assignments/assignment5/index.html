@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet"/>
+    <title>Restaurant</title>
+</head>
+<body>
+    <h1 class="center">Dheeraj's Restaurant</h1>
+    <hr>
+    <div class="container">
+        <div id="table-side">
+            <h3>Tables</h3>
+            <form class="search-tables">
+                <p>Search Tables</p>
+                <input id="table-search" type="text" placeholder="Type Something" onkeyup="searchTables(this)"/>
+            </form>
+        </div>
+        <div id="menu-side">
+            <h3>Menu</h3>
+            <form class="search-menu">
+                <p>Search Menu</p>
+                <input id="menu-search" type="text" placeholder="Type Something" onkeyup="searchMenu(this)"/>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
